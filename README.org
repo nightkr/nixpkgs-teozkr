@@ -1,1 +1,6 @@
 Various packages I use that aren't pretty enough to get into Nixpkgs.
+
+* Installing
+
+`git clone` this repository to somewhere, then create a file named `teozkr.nix`
+in `~/.config/nixpkgs/overlays`, with the contents `import /path/to/nixpkgs-teozkr`.
